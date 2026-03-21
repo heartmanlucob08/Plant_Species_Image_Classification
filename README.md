@@ -229,16 +229,45 @@ Below are the **20 related plant species** used in this image classification pro
 - **Common Name:** Beach Sandmat  
 - **Scientific Name:** *Euphorbia mesembryanthemifolia*  
 - **Description:** A low-growing plant that spreads across sandy ground. It is adapted to hot, dry, and salty beach environments.
+
 ## C. Model Training Details
 
 The image classification model was trained using the following **hyperparameters**:
 
-- **Epochs:** 100  
+- **Epochs:** 30  
 - **Batch Size:** 32  
 - **Learning Rate:** 0.001  
 - **Number of Images per Class:** 250 images or more per class  
 
-The model was trained for **100 epochs** with a **batch size of 32** and a **learning rate of 0.001**. Each plant species class contained approximately **250 images**, allowing the model to learn visual patterns from a balanced dataset. These hyperparameters were chosen to help improve the model’s ability to classify plant species accurately.
+The model was trained for **30 epochs** with a **batch size of 32** and a **learning rate of 0.001**. Each plant species class contained approximately **250 images**, allowing the model to learn visual patterns from a balanced dataset. These hyperparameters were chosen to help improve the model’s ability to classify plant species accurately.
+
+## D. Model Evaluation
+
+In this section, the model was evaluated to check how well it performs. The screenshots provided below show the different evaluation results of the model:
+
+### Confusion Matrix
+![Confusion Matrix](images/confusion-matrix.png)
+
+### Accuracy per Class
+![Accuracy per Class](images/accuracy-per-class.png)
+
+### Overall Model Accuracy
+![Overall Model Accuracy](images/overall-model-accuracy.png)
+
+These images help show the overall performance of the model and make it easier to understand which classes were predicted correctly and which ones were sometimes misclassified.
+
+## E. Model Testing
+
+In this section, the trained model was tested using sample plant images. The screenshots below show the actual testing results of the model:
+
+### Model Testing Result 1
+![Model Testing Result 1](images/model-testing-1.png)
+
+### Model Testing Result 2
+![Model Testing Result 2](images/model-testing-2.png)
+
+The testing results show the predicted class and confidence score for each image. This helps check if the model can correctly identify plant species using unseen images.
+
 
 
 ## Reflection Questions
