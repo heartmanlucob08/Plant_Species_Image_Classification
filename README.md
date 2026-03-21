@@ -268,7 +268,7 @@ This image shows the accuracy of the model for each individual class.
 ### Overall Model Accuracy
 
 <p align="center">
-  <img src="images/overall-model-accuracy.png" width="70%">
+  <img src="images/eopchs_graph.png" width="70%">
 </p>
 
 This image shows the overall accuracy achieved by the trained model.
