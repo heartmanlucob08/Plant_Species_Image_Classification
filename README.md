@@ -36,7 +36,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 3. Beach Pandan
 <p align="center">
-  <img src="images/beach-pandan.jpg" alt="Beach Pandan" width="250">
+  <img src="images/pandanus.jpg" alt="Beach Pandan" width="250">
 </p>
 
 - **Common Name:** Beach Pandan  
@@ -47,7 +47,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 4. Beach Spinifex Grass
 <p align="center">
-  <img src="images/beach-spinifex-grass.jpg" alt="Beach Spinifex Grass" width="250">
+  <img src="images/spinifex.jpg" alt="Beach Spinifex Grass" width="250">
 </p>
 
 - **Common Name:** Beach Spinifex Grass  
@@ -58,7 +58,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 5. Seaside Heliotrope
 <p align="center">
-  <img src="images/seaside-heliotrope.jpg" alt="Seaside Heliotrope" width="250">
+  <img src="images/curassavicum.jpg" alt="Seaside Heliotrope" width="250">
 </p>
 
 - **Common Name:** Seaside Heliotrope  
@@ -69,7 +69,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 6. Beach Bean
 <p align="center">
-  <img src="images/beach-bean.jpg" alt="Beach Bean" width="250">
+  <img src="images/canavalia.jpg" alt="Beach Bean" width="250">
 </p>
 
 - **Common Name:** Beach Bean  
@@ -80,7 +80,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 7. Sea Purslane
 <p align="center">
-  <img src="images/sea-purslane.jpg" alt="Sea Purslane" width="250">
+  <img src="images/sesuvium.jpg" alt="Sea Purslane" width="250">
 </p>
 
 - **Common Name:** Sea Purslane  
@@ -91,7 +91,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 8. Beach Pea
 <p align="center">
-  <img src="images/beach-pea.jpg" alt="Beach Pea" width="250">
+  <img src="images/vignamarina.jpg" alt="Beach Pea" width="250">
 </p>
 
 - **Common Name:** Beach Pea  
@@ -102,7 +102,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 9. Beach Lily
 <p align="center">
-  <img src="images/beach-lily.jpg" alt="Beach Lily" width="250">
+  <img src="images/crinum.jpg" alt="Beach Lily" width="250">
 </p>
 
 - **Common Name:** Beach Lily  
@@ -113,7 +113,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 10. Seaside Goldenrod
 <p align="center">
-  <img src="images/seaside-goldenrod.jpg" alt="Seaside Goldenrod" width="250">
+  <img src="images/golden_rod.jpg" alt="Seaside Goldenrod" width="250">
 </p>
 
 - **Common Name:** Seaside Goldenrod  
@@ -124,7 +124,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 11. Bay Cedar
 <p align="center">
-  <img src="images/bay-cedar.jpg" alt="Bay Cedar" width="250">
+  <img src="images/suriana.jpg" alt="Bay Cedar" width="250">
 </p>
 
 - **Common Name:** Bay Cedar  
@@ -135,7 +135,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 12. Yellow Necklace Pod
 <p align="center">
-  <img src="images/yellow-necklace-pod.jpg" alt="Yellow Necklace Pod" width="250">
+  <img src="images/sophora.jpg" alt="Yellow Necklace Pod" width="250">
 </p>
 
 - **Common Name:** Yellow Necklace Pod  
@@ -146,7 +146,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 13. Sea Rocket
 <p align="center">
-  <img src="images/sea-rocket.jpg" alt="Sea Rocket" width="250">
+  <img src="images/cakile.jpg" alt="Sea Rocket" width="250">
 </p>
 
 - **Common Name:** Sea Rocket  
@@ -168,7 +168,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 15. Beach Rattlebox
 <p align="center">
-  <img src="images/beach-rattlebox.jpg" alt="Beach Rattlebox" width="250">
+  <img src="images/crotalaria.jpg" alt="Beach Rattlebox" width="250">
 </p>
 
 - **Common Name:** Beach Rattlebox  
@@ -179,7 +179,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 16. Red Sand Verbena
 <p align="center">
-  <img src="images/red-sand-verbena.jpg" alt="Red Sand Verbena" width="250">
+  <img src="images/abronia.jpg" alt="Red Sand Verbena" width="250">
 </p>
 
 - **Common Name:** Red Sand Verbena  
@@ -190,7 +190,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 17. Cucumberleaf Sunflower
 <p align="center">
-  <img src="images/cucumberleaf-sunflower.jpg" alt="Cucumberleaf Sunflower" width="250">
+  <img src="images/helianthus.jpg" alt="Cucumberleaf Sunflower" width="250">
 </p>
 
 - **Common Name:** Cucumberleaf Sunflower  
@@ -212,7 +212,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 19. Long-leaf Sea-Lavender
 <p align="center">
-  <img src="images/sea-lavender.jpg" alt="Long-leaf Sea-Lavender" width="250">
+  <img src="images/longifolium.jpg" alt="Long-leaf Sea-Lavender" width="250">
 </p>
 
 - **Common Name:** Long-leaf Sea-Lavender  
@@ -223,7 +223,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 20. Beach Sandmat
 <p align="center">
-  <img src="images/beach-sandmat.jpg" alt="Beach Sandmat" width="250">
+  <img src="images/euphorbia.jpg" alt="Beach Sandmat" width="250">
 </p>
 
 - **Common Name:** Beach Sandmat  
