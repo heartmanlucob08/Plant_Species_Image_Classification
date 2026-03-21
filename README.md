@@ -14,7 +14,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 1. Beach Morning Glory
 <p align="center">
-  <img src="images/beach-morning-glory.jpg" alt="Beach Morning Glory" width="250">
+  <img src="images/large.jpg" alt="Beach Morning Glory" width="250">
 </p>
 
 - **Common Name:** Beach Morning Glory  
