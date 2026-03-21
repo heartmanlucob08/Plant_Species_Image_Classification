@@ -234,12 +234,12 @@ Below are the **20 related plant species** used in this image classification pro
 
 The image classification model was trained using the following **hyperparameters**:
 
-- **Epochs:** 30  
+- **Epochs:** 80  
 - **Batch Size:** 32  
 - **Learning Rate:** 0.001  
 - **Number of Images per Class:** 250 images or more per class  
 
-The model was trained for **30 epochs** with a **batch size of 32** and a **learning rate of 0.001**. Each plant species class contained approximately **250 images**, allowing the model to learn visual patterns from a balanced dataset. These hyperparameters were chosen to help improve the model’s ability to classify plant species accurately.
+The model was trained for **80 epochs** with a **batch size of 32** and a **learning rate of 0.001**. Each plant species class contained approximately **250 images**, allowing the model to learn visual patterns from a balanced dataset. These hyperparameters were chosen to help improve the model’s ability to classify plant species accurately.
 
 ## D. Model Evaluation
 
@@ -250,7 +250,7 @@ In this section, the model was evaluated to check its performance. The results b
 The complete confusion matrix is shown below. Since the full output is too large to fit in one screenshot, the images are placed closely together to present the full result as one continuous figure.
 
 <p align="center">
-  <img src="images/confusion_matrix2.png" width="33.33%"><img src="images/confusion_matrix(2).png" width="33.33%"><img src="images/confusion_matrix(1).png" width="33.33%">
+  <img src="images/confusion_matrix2.png" width="33.33%"><img src="images/confusion_matrix (2).png" width="33.33%"><img src="images/confusion_matrix (1).png" width="33.33%">
 </p>
 
 <p align="center"><em>Full Confusion Matrix</em></p>
