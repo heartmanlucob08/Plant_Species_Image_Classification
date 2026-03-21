@@ -102,7 +102,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 9. Beach Lily
 <p align="center">
-  <img src="images/crinum.jpg" alt="Beach Lily" width="250">
+  <img src="images/crinum.jpeg" alt="Beach Lily" width="250">
 </p>
 
 - **Common Name:** Beach Lily  
@@ -212,7 +212,7 @@ Below are the **20 related plant species** used in this image classification pro
 
 ### 19. Long-leaf Sea-Lavender
 <p align="center">
-  <img src="images/longifolium.jpg" alt="Long-leaf Sea-Lavender" width="250">
+  <img src="images/longifolium.jpeg" alt="Long-leaf Sea-Lavender" width="250">
 </p>
 
 - **Common Name:** Long-leaf Sea-Lavender  
