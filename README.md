@@ -120,7 +120,115 @@ Below are the **20 related plant species** used in this image classification pro
 - **Scientific Name:** *Solidago sempervirens*  
 - **Description:** A flowering coastal plant recognized by its bright yellow flower clusters. It is commonly found near dunes and shorelines.
 
+---
 
+### 11. Bay Cedar
+<p align="center">
+  <img src="images/bay-cedar.jpg" alt="Bay Cedar" width="250">
+</p>
+
+- **Common Name:** Bay Cedar  
+- **Scientific Name:** *Suriana maritima*  
+- **Description:** A small coastal shrub with woody branches and yellow flowers. It grows in dry sandy places near the sea.
+
+---
+
+### 12. Yellow Necklace Pod
+<p align="center">
+  <img src="images/yellow-necklace-pod.jpg" alt="Yellow Necklace Pod" width="250">
+</p>
+
+- **Common Name:** Yellow Necklace Pod  
+- **Scientific Name:** *Sophora tomentosa*  
+- **Description:** A coastal shrub with yellow flowers and bead-like seed pods. It is commonly found in sandy and salty environments.
+
+---
+
+### 13. Sea Rocket
+<p align="center">
+  <img src="images/sea-rocket.jpg" alt="Sea Rocket" width="250">
+</p>
+
+- **Common Name:** Sea Rocket  
+- **Scientific Name:** *Cakile maritima*  
+- **Description:** A hardy coastal plant that grows on sandy beaches. It has fleshy leaves and is well adapted to seaside conditions.
+
+---
+
+### 14. Saltwort
+<p align="center">
+  <img src="images/saltwort.jpg" alt="Saltwort" width="250">
+</p>
+
+- **Common Name:** Saltwort  
+- **Scientific Name:** *Batis maritima*  
+- **Description:** A salt-tolerant coastal plant with small thick leaves. It is commonly found in marshes and other salty habitats.
+
+---
+
+### 15. Beach Rattlebox
+<p align="center">
+  <img src="images/beach-rattlebox.jpg" alt="Beach Rattlebox" width="250">
+</p>
+
+- **Common Name:** Beach Rattlebox  
+- **Scientific Name:** *Crotalaria pumila*  
+- **Description:** A small coastal flowering plant with yellow blossoms. Its seed pods make a rattling sound when dry.
+
+---
+
+### 16. Red Sand Verbena
+<p align="center">
+  <img src="images/red-sand-verbena.jpg" alt="Red Sand Verbena" width="250">
+</p>
+
+- **Common Name:** Red Sand Verbena  
+- **Scientific Name:** *Abronia maritima*  
+- **Description:** A low-growing beach plant with clusters of colorful flowers. It grows well in sandy coastal areas.
+
+---
+
+### 17. Cucumberleaf Sunflower
+<p align="center">
+  <img src="images/cucumberleaf-sunflower.jpg" alt="Cucumberleaf Sunflower" width="250">
+</p>
+
+- **Common Name:** Cucumberleaf Sunflower  
+- **Scientific Name:** *Helianthus debilis*  
+- **Description:** A coastal flowering plant with bright yellow petals and broad leaves. It is often found in sunny sandy areas.
+
+---
+
+### 18. Wedelia
+<p align="center">
+  <img src="images/wedelia.jpg" alt="Wedelia" width="250">
+</p>
+
+- **Common Name:** Wedelia  
+- **Scientific Name:** *Wedelia trilobata*  
+- **Description:** A creeping groundcover plant with bright yellow flowers. It spreads quickly and is often used as an ornamental plant.
+
+---
+
+### 19. Long-leaf Sea-Lavender
+<p align="center">
+  <img src="images/sea-lavender.jpg" alt="Long-leaf Sea-Lavender" width="250">
+</p>
+
+- **Common Name:** Long-leaf Sea-Lavender  
+- **Scientific Name:** *Limonium longifolium*  
+- **Description:** A flowering coastal plant known for its small purple or lavender flowers. It grows well in salty coastal habitats.
+
+---
+
+### 20. Beach Sandmat
+<p align="center">
+  <img src="images/beach-sandmat.jpg" alt="Beach Sandmat" width="250">
+</p>
+
+- **Common Name:** Beach Sandmat  
+- **Scientific Name:** *Euphorbia mesembryanthemifolia*  
+- **Description:** A low-growing plant that spreads across sandy ground. It is adapted to hot, dry, and salty beach environments.
 ## C. Model Training Details
 
 The image classification model was trained using the following **hyperparameters**:
