@@ -243,31 +243,46 @@ The model was trained for **30 epochs** with a **batch size of 32** and a **lear
 
 ## D. Model Evaluation
 
-In this section, the model was evaluated to check how well it performs. The screenshots provided below show the different evaluation results of the model:
+In this section, the model was evaluated to check its performance. The results below show how well the model classified each plant species.
 
 ### Confusion Matrix
-![Confusion Matrix](images/confusion-matrix.png)
+
+The complete confusion matrix is shown below. Since the full output is too large to fit in one screenshot, the images are placed closely together to present the full result as one continuous figure.
+
+<p align="center">
+  <img src="images/confusion_matrix2.png" width="33.33%"><img src="images/confusion_matrix(2).png" width="33.33%"><img src="images/confusion_matrix(1).png" width="33.33%">
+</p>
+
+<p align="center"><em>Full Confusion Matrix</em></p>
+
+These images represent the complete confusion matrix of the model. They help show which plant species were predicted correctly and which were misclassified.
 
 ### Accuracy per Class
-![Accuracy per Class](images/accuracy-per-class.png)
+
+<p align="center">
+  <img src="images/Accuracy_per_class.png" width="70%">
+</p>
+
+This image shows the accuracy of the model for each individual class.
 
 ### Overall Model Accuracy
-![Overall Model Accuracy](images/overall-model-accuracy.png)
 
-These images help show the overall performance of the model and make it easier to understand which classes were predicted correctly and which ones were sometimes misclassified.
+<p align="center">
+  <img src="images/overall-model-accuracy.png" width="70%">
+</p>
+
+This image shows the overall accuracy achieved by the trained model.
 
 ## E. Model Testing
 
-In this section, the trained model was tested using sample plant images. The screenshots below show the actual testing results of the model:
+In this section, the trained model was tested using sample plant images to check how well it performs on unseen data.
 
-### Model Testing Result 1
-![Model Testing Result 1](images/model-testing-1.png)
+<p align="center">
+  <img src="images/model-testing-1.png" width="45%">
+  <img src="images/model-testing-2.png" width="45%">
+</p>
 
-### Model Testing Result 2
-![Model Testing Result 2](images/model-testing-2.png)
-
-The testing results show the predicted class and confidence score for each image. This helps check if the model can correctly identify plant species using unseen images.
-
+The testing results show the predicted class label and confidence score for each image.
 
 
 ## Reflection Questions
