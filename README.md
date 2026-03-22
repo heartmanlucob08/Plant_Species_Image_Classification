@@ -326,7 +326,7 @@ The result shows the predicted plant class and the confidence score for the uplo
 ### Test 6
 
 <p align="center">
-  <img src="testing/ipomopea.png" width="45%">
+  <img src="testing/ipomoea.png" width="45%">
   <img src="testing/ipomoea_test.png" width="45%">
 </p>
 
