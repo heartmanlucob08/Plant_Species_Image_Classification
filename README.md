@@ -280,7 +280,7 @@ In this section, the trained model was tested using sample plant images to check
 ### Test 1
 
 <p align="center">
-  <img src="images/abronia_test.png" width="45%">
+  <img src="testing/abronia_test.png" width="45%">
 </p>
 
 <p align="center"><em>Input image and model prediction</em></p>
@@ -290,7 +290,7 @@ The result shows the predicted plant class and the confidence score for the uplo
 ### Test 2
 
 <p align="center">
-  <img src="images/bati_test.png" width="45%">
+  <img src="testing/bati_test.png" width="45%">
 </p>
 
 <p align="center"><em>Input image and model prediction result</em></p>
@@ -300,7 +300,7 @@ The result shows the predicted plant class and the confidence score for the uplo
 ### Test 3
 
 <p align="center">
-  <img src="images/crinum_test.png" width="45%">
+  <img src="testing/crinum_test.png" width="45%">
 </p>
 
 <p align="center"><em>Input image and model prediction result</em></p>
@@ -308,8 +308,8 @@ The result shows the predicted plant class and the confidence score for the uplo
 ### Test 4
 
 <p align="center">
-  <img src="images/helianthus.png" width="45%">
-  <img src="images/helianthus_test.png" width="45%">
+  <img src="testing/helianthus.png" width="45%">
+  <img src="testing/helianthus_test.png" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
@@ -317,8 +317,8 @@ The result shows the predicted plant class and the confidence score for the uplo
 ### Test 5
 
 <p align="center">
-  <img src="images/heliotropium.png" width="45%">
-  <img src="images/heliotropium_test.png" width="45%">
+  <img src="testing/heliotropium.png" width="45%">
+  <img src="testing/heliotropium_test.png" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
@@ -326,8 +326,8 @@ The result shows the predicted plant class and the confidence score for the uplo
 ### Test 6
 
 <p align="center">
-  <img src="images/ipomopea.png" width="45%">
-  <img src="images/ipomoea_test.png" width="45%">
+  <img src="testing/ipomopea.png" width="45%">
+  <img src="testing/ipomoea_test.png" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
@@ -335,8 +335,8 @@ The result shows the predicted plant class and the confidence score for the uplo
 ### Test 7
 
 <p align="center">
-  <img src="images/sesuvium.png" width="45%">
-  <img src="images/sesuvium_test.png" width="45%">
+  <img src="testing/sesuvium.png" width="45%">
+  <img src="testing/sesuvium_test.png" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
@@ -344,8 +344,8 @@ The result shows the predicted plant class and the confidence score for the uplo
 ### Test 8
 
 <p align="center">
-  <img src="images/solidago.png" width="45%">
-  <img src="images/solidago_test.png" width="45%">
+  <img src="testing/solidago.png" width="45%">
+  <img src="testing/solidago_test.png" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
@@ -353,8 +353,8 @@ The result shows the predicted plant class and the confidence score for the uplo
 ### Test 9
 
 <p align="center">
-  <img src="images/suriana.png" width="45%">
-  <img src="images/suriana_test.png" width="45%">
+  <img src="testing/suriana.png" width="45%">
+  <img src="testing/suriana_test.png" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
@@ -362,8 +362,8 @@ The result shows the predicted plant class and the confidence score for the uplo
 ### Test 10
 
 <p align="center">
-  <img src="images/vigna.png" width="45%">
-  <img src="images/vigna_test.png" width="45%">
+  <img src="testing/vigna.png" width="45%">
+  <img src="testing/vigna_test.png" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
