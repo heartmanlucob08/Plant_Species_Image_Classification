@@ -1,386 +1,555 @@
- # Plant Image Classification Using Teachable Machine
+<div align="center">
 
-## A. Project Overview
+# 🌿 Plant Image Classification Using Teachable Machine
 
-This project is about developing an image classification model using **Google Teachable Machine** to recognize **20 related plant species** from images. The model is trained to learn the unique features of each plant species and classify them based on the given image.
+**A clean and simple image classification activity for identifying 20 plant species using Google Teachable Machine**
 
-The purpose of this image classification model is to identify plant species automatically and accurately. It is intended to make plant recognition easier and more efficient. To show how the model was developed and how well it works, the project also includes the **model training details** and **evaluation results**, such as the **confusion matrix**, **accuracy per class**, and **overall model accuracy**.
+</div>
 
-## B. Plant Species Section
+---
 
-Below are the **20 related plant species** used in this image classification project. Each plant includes one representative image, its common name, scientific name, and a short description.
+## 📖 Project Overview
+
+This project focuses on developing an image classification model using **Google Teachable Machine** to recognize **20 related plant species** from images. The model was trained to learn the unique visual features of each plant species and classify them based on the uploaded image.
+
+The main goal of this activity is to make plant identification easier and more efficient through image classification. This README also presents the **training details**, **evaluation results**, **testing examples**, and **reflection questions** to clearly show the overall performance of the model.
+
+---
+
+## 🌱 Plant Species Used
+
+Below are the **20 plant species** used in this project. Each plant includes a representative image, its common name, scientific name, and a short description.
 
 ---
 
 ### 1. Beach Morning Glory
+
 <p align="center">
-  <img src="images/large.jpg" alt="Beach Morning Glory" width="250">
+  <img src="images/large.jpg" alt="Beach Morning Glory" width="420">
 </p>
 
-- **Common Name:** Beach Morning Glory  
-- **Scientific Name:** *Ipomoea pes-caprae*  
-- **Description:** A creeping coastal vine commonly found on sandy beaches. It is known for its broad leaves and purple trumpet-shaped flowers.
+<div align="center">
+
+**Common Name:** Beach Morning Glory  
+**Scientific Name:** *Ipomoea pes-caprae*
+
+</div>
+
+A creeping coastal vine commonly found on sandy beaches. It is known for its broad leaves and purple trumpet-shaped flowers.
 
 ---
 
 ### 2. Scaevola
+
 <p align="center">
-  <img src="images/scaevola.jpg" alt="Scaevola" width="250">
+  <img src="images/scaevola.jpg" alt="Scaevola" width="420">
 </p>
 
-- **Common Name:** Scaevola  
-- **Scientific Name:** *Scaevola taccada*  
-- **Description:** A coastal shrub with thick green leaves and small white flowers. It is commonly found near shorelines and helps protect coastal areas.
+<div align="center">
+
+**Common Name:** Scaevola  
+**Scientific Name:** *Scaevola taccada*
+
+</div>
+
+A coastal shrub with thick green leaves and small white flowers. It is commonly found near shorelines and helps protect coastal areas.
 
 ---
 
 ### 3. Beach Pandan
+
 <p align="center">
-  <img src="images/pandanus.jpg" alt="Beach Pandan" width="250">
+  <img src="images/pandanus.jpg" alt="Beach Pandan" width="420">
 </p>
 
-- **Common Name:** Beach Pandan  
-- **Scientific Name:** *Pandanus tectorius*  
-- **Description:** A tropical coastal plant with long spiny leaves and large fruit clusters. It grows well in sandy and seaside environments.
+<div align="center">
+
+**Common Name:** Beach Pandan  
+**Scientific Name:** *Pandanus tectorius*
+
+</div>
+
+A tropical coastal plant with long spiny leaves and large fruit clusters. It grows well in sandy and seaside environments.
 
 ---
 
 ### 4. Beach Spinifex Grass
+
 <p align="center">
-  <img src="images/spinifex.jpg" alt="Beach Spinifex Grass" width="250">
+  <img src="images/spinifex.jpg" alt="Beach Spinifex Grass" width="420">
 </p>
 
-- **Common Name:** Beach Spinifex Grass  
-- **Scientific Name:** *Spinifex littoreus*  
-- **Description:** A fast-spreading grass that grows on sand dunes. It helps stabilize sandy soil along the coast.
+<div align="center">
+
+**Common Name:** Beach Spinifex Grass  
+**Scientific Name:** *Spinifex littoreus*
+
+</div>
+
+A fast-spreading grass that grows on sand dunes. It helps stabilize sandy soil along the coast.
 
 ---
 
 ### 5. Seaside Heliotrope
+
 <p align="center">
-  <img src="images/curassavicum.jpg" alt="Seaside Heliotrope" width="250">
+  <img src="images/curassavicum.jpg" alt="Seaside Heliotrope" width="420">
 </p>
 
-- **Common Name:** Seaside Heliotrope  
-- **Scientific Name:** *Heliotropium curassavicum*  
-- **Description:** A low-growing coastal plant with fleshy leaves and small flowers. It thrives in salty environments near the shore.
+<div align="center">
+
+**Common Name:** Seaside Heliotrope  
+**Scientific Name:** *Heliotropium curassavicum*
+
+</div>
+
+A low-growing coastal plant with fleshy leaves and small flowers. It thrives in salty environments near the shore.
 
 ---
 
 ### 6. Beach Bean
+
 <p align="center">
-  <img src="images/canavalia.jpg" alt="Beach Bean" width="250">
+  <img src="images/canavalia.jpg" alt="Beach Bean" width="420">
 </p>
 
-- **Common Name:** Beach Bean  
-- **Scientific Name:** *Canavalia rosea*  
-- **Description:** A trailing vine that grows on sandy beaches. It has thick leaves and pink to purple flowers.
+<div align="center">
+
+**Common Name:** Beach Bean  
+**Scientific Name:** *Canavalia rosea*
+
+</div>
+
+A trailing vine that grows on sandy beaches. It has thick leaves and pink to purple flowers.
 
 ---
 
 ### 7. Sea Purslane
+
 <p align="center">
-  <img src="images/sesuvium.jpg" alt="Sea Purslane" width="250">
+  <img src="images/sesuvium.jpg" alt="Sea Purslane" width="420">
 </p>
 
-- **Common Name:** Sea Purslane  
-- **Scientific Name:** *Sesuvium portulacastrum*  
-- **Description:** A creeping succulent plant with fleshy leaves. It is well adapted to coastal habitats and salty soil.
+<div align="center">
+
+**Common Name:** Sea Purslane  
+**Scientific Name:** *Sesuvium portulacastrum*
+
+</div>
+
+A creeping succulent plant with fleshy leaves. It is well adapted to coastal habitats and salty soil.
 
 ---
 
 ### 8. Beach Pea
+
 <p align="center">
-  <img src="images/vignamarina.jpg" alt="Beach Pea" width="250">
+  <img src="images/vignamarina.jpg" alt="Beach Pea" width="420">
 </p>
 
-- **Common Name:** Beach Pea  
-- **Scientific Name:** *Vigna marina*  
-- **Description:** A coastal legume vine with yellow flowers. It commonly grows on sandy shores and open beach areas.
+<div align="center">
+
+**Common Name:** Beach Pea  
+**Scientific Name:** *Vigna marina*
+
+</div>
+
+A coastal legume vine with yellow flowers. It commonly grows on sandy shores and open beach areas.
 
 ---
 
 ### 9. Beach Lily
+
 <p align="center">
-  <img src="images/crinum.jpeg" alt="Beach Lily" width="250">
+  <img src="images/crinum.jpeg" alt="Beach Lily" width="420">
 </p>
 
-- **Common Name:** Beach Lily  
-- **Scientific Name:** *Crinum asiaticum*  
-- **Description:** A flowering coastal plant with long leaves and large white blooms. It is often found in tropical seaside areas.
+<div align="center">
+
+**Common Name:** Beach Lily  
+**Scientific Name:** *Crinum asiaticum*
+
+</div>
+
+A flowering coastal plant with long leaves and large white blooms. It is often found in tropical seaside areas.
 
 ---
 
 ### 10. Seaside Goldenrod
+
 <p align="center">
-  <img src="images/golden_rod.jpg" alt="Seaside Goldenrod" width="250">
+  <img src="images/golden_rod.jpg" alt="Seaside Goldenrod" width="420">
 </p>
 
-- **Common Name:** Seaside Goldenrod  
-- **Scientific Name:** *Solidago sempervirens*  
-- **Description:** A flowering coastal plant recognized by its bright yellow flower clusters. It is commonly found near dunes and shorelines.
+<div align="center">
+
+**Common Name:** Seaside Goldenrod  
+**Scientific Name:** *Solidago sempervirens*
+
+</div>
+
+A flowering coastal plant recognized by its bright yellow flower clusters. It is commonly found near dunes and shorelines.
 
 ---
 
 ### 11. Bay Cedar
+
 <p align="center">
-  <img src="images/suriana.jpg" alt="Bay Cedar" width="250">
+  <img src="images/suriana.jpg" alt="Bay Cedar" width="420">
 </p>
 
-- **Common Name:** Bay Cedar  
-- **Scientific Name:** *Suriana maritima*  
-- **Description:** A small coastal shrub with woody branches and yellow flowers. It grows in dry sandy places near the sea.
+<div align="center">
+
+**Common Name:** Bay Cedar  
+**Scientific Name:** *Suriana maritima*
+
+</div>
+
+A small coastal shrub with woody branches and yellow flowers. It grows in dry sandy places near the sea.
 
 ---
 
 ### 12. Yellow Necklace Pod
+
 <p align="center">
-  <img src="images/sophora.jpg" alt="Yellow Necklace Pod" width="250">
+  <img src="images/sophora.jpg" alt="Yellow Necklace Pod" width="420">
 </p>
 
-- **Common Name:** Yellow Necklace Pod  
-- **Scientific Name:** *Sophora tomentosa*  
-- **Description:** A coastal shrub with yellow flowers and bead-like seed pods. It is commonly found in sandy and salty environments.
+<div align="center">
+
+**Common Name:** Yellow Necklace Pod  
+**Scientific Name:** *Sophora tomentosa*
+
+</div>
+
+A coastal shrub with yellow flowers and bead-like seed pods. It is commonly found in sandy and salty environments.
 
 ---
 
 ### 13. Sea Rocket
+
 <p align="center">
-  <img src="images/cakile.jpg" alt="Sea Rocket" width="250">
+  <img src="images/cakile.jpg" alt="Sea Rocket" width="420">
 </p>
 
-- **Common Name:** Sea Rocket  
-- **Scientific Name:** *Cakile maritima*  
-- **Description:** A hardy coastal plant that grows on sandy beaches. It has fleshy leaves and is well adapted to seaside conditions.
+<div align="center">
+
+**Common Name:** Sea Rocket  
+**Scientific Name:** *Cakile maritima*
+
+</div>
+
+A hardy coastal plant that grows on sandy beaches. It has fleshy leaves and is well adapted to seaside conditions.
 
 ---
 
 ### 14. Saltwort
+
 <p align="center">
-  <img src="images/saltwort.jpg" alt="Saltwort" width="250">
+  <img src="images/saltwort.jpg" alt="Saltwort" width="420">
 </p>
 
-- **Common Name:** Saltwort  
-- **Scientific Name:** *Batis maritima*  
-- **Description:** A salt-tolerant coastal plant with small thick leaves. It is commonly found in marshes and other salty habitats.
+<div align="center">
+
+**Common Name:** Saltwort  
+**Scientific Name:** *Batis maritima*
+
+</div>
+
+A salt-tolerant coastal plant with small thick leaves. It is commonly found in marshes and other salty habitats.
 
 ---
 
 ### 15. Beach Rattlebox
+
 <p align="center">
-  <img src="images/crotalaria.jpg" alt="Beach Rattlebox" width="250">
+  <img src="images/crotalaria.jpg" alt="Beach Rattlebox" width="420">
 </p>
 
-- **Common Name:** Beach Rattlebox  
-- **Scientific Name:** *Crotalaria pumila*  
-- **Description:** A small coastal flowering plant with yellow blossoms. Its seed pods make a rattling sound when dry.
+<div align="center">
+
+**Common Name:** Beach Rattlebox  
+**Scientific Name:** *Crotalaria pumila*
+
+</div>
+
+A small coastal flowering plant with yellow blossoms. Its seed pods make a rattling sound when dry.
 
 ---
 
 ### 16. Red Sand Verbena
+
 <p align="center">
-  <img src="images/abronia.jpg" alt="Red Sand Verbena" width="250">
+  <img src="images/abronia.jpg" alt="Red Sand Verbena" width="420">
 </p>
 
-- **Common Name:** Red Sand Verbena  
-- **Scientific Name:** *Abronia maritima*  
-- **Description:** A low-growing beach plant with clusters of colorful flowers. It grows well in sandy coastal areas.
+<div align="center">
+
+**Common Name:** Red Sand Verbena  
+**Scientific Name:** *Abronia maritima*
+
+</div>
+
+A low-growing beach plant with clusters of colorful flowers. It grows well in sandy coastal areas.
 
 ---
 
 ### 17. Cucumberleaf Sunflower
+
 <p align="center">
-  <img src="images/helianthus.jpg" alt="Cucumberleaf Sunflower" width="250">
+  <img src="images/helianthus.jpg" alt="Cucumberleaf Sunflower" width="420">
 </p>
 
-- **Common Name:** Cucumberleaf Sunflower  
-- **Scientific Name:** *Helianthus debilis*  
-- **Description:** A coastal flowering plant with bright yellow petals and broad leaves. It is often found in sunny sandy areas.
+<div align="center">
+
+**Common Name:** Cucumberleaf Sunflower  
+**Scientific Name:** *Helianthus debilis*
+
+</div>
+
+A coastal flowering plant with bright yellow petals and broad leaves. It is often found in sunny sandy areas.
 
 ---
 
 ### 18. Wedelia
+
 <p align="center">
-  <img src="images/wedelia.jpg" alt="Wedelia" width="250">
+  <img src="images/wedelia.jpg" alt="Wedelia" width="420">
 </p>
 
-- **Common Name:** Wedelia  
-- **Scientific Name:** *Wedelia trilobata*  
-- **Description:** A creeping groundcover plant with bright yellow flowers. It spreads quickly and is often used as an ornamental plant.
+<div align="center">
+
+**Common Name:** Wedelia  
+**Scientific Name:** *Wedelia trilobata*
+
+</div>
+
+A creeping groundcover plant with bright yellow flowers. It spreads quickly and is often used as an ornamental plant.
 
 ---
 
 ### 19. Long-leaf Sea-Lavender
+
 <p align="center">
-  <img src="images/longifolium.jpeg" alt="Long-leaf Sea-Lavender" width="250">
+  <img src="images/longifolium.jpeg" alt="Long-leaf Sea-Lavender" width="420">
 </p>
 
-- **Common Name:** Long-leaf Sea-Lavender  
-- **Scientific Name:** *Limonium longifolium*  
-- **Description:** A flowering coastal plant known for its small purple or lavender flowers. It grows well in salty coastal habitats.
+<div align="center">
+
+**Common Name:** Long-leaf Sea-Lavender  
+**Scientific Name:** *Limonium longifolium*
+
+</div>
+
+A flowering coastal plant known for its small purple or lavender flowers. It grows well in salty coastal habitats.
 
 ---
 
 ### 20. Beach Sandmat
+
 <p align="center">
-  <img src="images/euphorbia.jpg" alt="Beach Sandmat" width="250">
+  <img src="images/euphorbia.jpg" alt="Beach Sandmat" width="420">
 </p>
 
-- **Common Name:** Beach Sandmat  
-- **Scientific Name:** *Euphorbia mesembryanthemifolia*  
-- **Description:** A low-growing plant that spreads across sandy ground. It is adapted to hot, dry, and salty beach environments.
+<div align="center">
 
-## C. Model Training Details
+**Common Name:** Beach Sandmat  
+**Scientific Name:** *Euphorbia mesembryanthemifolia*
 
-The image classification model was trained using the following **hyperparameters**:
+</div>
+
+A low-growing plant that spreads across sandy ground. It is adapted to hot, dry, and salty beach environments.
+
+---
+
+## ⚙️ Model Training Details
+
+The image classification model was trained using the following hyperparameters:
 
 - **Epochs:** 80  
 - **Batch Size:** 32  
 - **Learning Rate:** 0.001  
 - **Number of Images per Class:** 250 images or more per class  
 
-The model was trained for **80 epochs** with a **batch size of 32** and a **learning rate of 0.001**. Each plant species class contained approximately **250 images**, allowing the model to learn visual patterns from a balanced dataset. These hyperparameters were chosen to help improve the model’s ability to classify plant species accurately.
+The model was trained for **80 epochs** with a **batch size of 32** and a **learning rate of 0.001**. Each plant species contained approximately **250 images**, which helped the model learn the visual patterns of each class from a more balanced dataset. These training settings were selected to improve the model’s classification performance.
 
-## D. Model Evaluation
+---
 
-In this section, the model was evaluated to check its performance. The results below show how well the model classified each plant species.
+## 📊 Model Evaluation
+
+This section presents the evaluation results of the trained model. The images below show how well the model classified the plant species.
 
 ### Confusion Matrix
 
-The complete confusion matrix is shown below. Since the full output is too large to fit in one screenshot, the images are placed closely together to present the full result as one continuous figure.
+The full confusion matrix is shown below. Since the complete output was too wide to fit into one screenshot, the images were arranged closely to appear as one continuous figure.
 
 <p align="center">
-  <img src="images/confusion_matrix2.png" width="33.33%"><img src="images/confusion_matrix (2).png" width="33.33%"><img src="images/confusion_matrix (1).png" width="33.33%">
+  <img src="images/confusion_matrix2.png" width="32%">
+  <img src="images/confusion_matrix (2).png" width="32%">
+  <img src="images/confusion_matrix (1).png" width="32%">
 </p>
 
 <p align="center"><em>Full Confusion Matrix</em></p>
 
-These images represent the complete confusion matrix of the model. They help show which plant species were predicted correctly and which were misclassified.
+These images help show which plant species were predicted correctly and which were misclassified by the model.
 
 ### Accuracy per Class
 
 <p align="center">
-  <img src="images/Accuracy_per_class.png" width="70%">
+  <img src="images/Accuracy_per_class.png" alt="Accuracy per Class" width="78%">
 </p>
 
-This image shows the accuracy of the model for each individual class.
+<p align="center"><em>Accuracy per class of the trained model</em></p>
+
+This figure shows the accuracy of the model for each plant species class.
 
 ### Overall Model Accuracy
 
 <p align="center">
-  <img src="images/eopchs_graph.png" width="70%">
+  <img src="images/eopchs_graph.png" alt="Overall Model Accuracy" width="78%">
 </p>
 
-This image shows the overall accuracy achieved by the trained model.
+<p align="center"><em>Overall model accuracy graph</em></p>
 
-## E. Model Testing
+This figure shows the overall training performance of the model.
 
-In this section, the trained model was tested using sample plant images to check how well it performs on unseen data. Each testing example includes the input image and the corresponding prediction result of the model.
+---
+
+## 🧪 Model Testing
+
+In this section, the trained model was tested using sample plant images to see how well it performs on unseen data. Each example includes the sample image and the model’s prediction result.
 
 ### Test 1
 
 <p align="center">
-  <img src="testing/abronia_test.png" width="45%">
+  <img src="testing/abronia_test.png" alt="Test 1" width="55%">
 </p>
 
-<p align="center"><em>Input image and model prediction</em></p>
+<p align="center"><em>Model prediction result for Test 1</em></p>
 
-The result shows the predicted plant class and the confidence score for the uploaded image.
+The output shows the predicted class label and confidence score for the given image.
+
+---
 
 ### Test 2
 
 <p align="center">
-  <img src="testing/batis_test.png" width="45%">
+  <img src="testing/batis_test.png" alt="Test 2" width="55%">
 </p>
 
-<p align="center"><em>Input image and model prediction result</em></p>
+<p align="center"><em>Model prediction result for Test 2</em></p>
 
-The result shows the predicted plant class and the confidence score for the uploaded image.
+The output shows the predicted class label and confidence score for the given image.
+
+---
 
 ### Test 3
 
 <p align="center">
-  <img src="testing/crinum_test.png" width="45%">
+  <img src="testing/crinum_test.png" alt="Test 3" width="55%">
 </p>
 
-<p align="center"><em>Input image and model prediction result</em></p>
+<p align="center"><em>Model prediction result for Test 3</em></p>
+
+The output shows the predicted class label and confidence score for the given image.
+
+---
 
 ### Test 4
 
 <p align="center">
-  <img src="testing/helianthus.png" width="45%">
-  <img src="testing/helianthus_test.png" width="45%">
+  <img src="testing/helianthus.png" alt="Helianthus Input" width="45%">
+  <img src="testing/helianthus_test.png" alt="Helianthus Result" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
+
+---
 
 ### Test 5
 
 <p align="center">
-  <img src="testing/heliotropium.png" width="45%">
-  <img src="testing/heliotropium_test.png" width="45%">
+  <img src="testing/heliotropium.png" alt="Heliotropium Input" width="45%">
+  <img src="testing/heliotropium_test.png" alt="Heliotropium Result" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
+
+---
 
 ### Test 6
 
 <p align="center">
-  <img src="testing/ipomoea.png" width="45%">
-  <img src="testing/ipomoea_test.png" width="45%">
+  <img src="testing/ipomoea.png" alt="Ipomoea Input" width="45%">
+  <img src="testing/ipomoea_test.png" alt="Ipomoea Result" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
+
+---
 
 ### Test 7
 
 <p align="center">
-  <img src="testing/sesuvium.png" width="45%">
-  <img src="testing/sesuvium_test.png" width="45%">
+  <img src="testing/sesuvium.png" alt="Sesuvium Input" width="45%">
+  <img src="testing/sesuvium_test.png" alt="Sesuvium Result" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
+
+---
 
 ### Test 8
 
 <p align="center">
-  <img src="testing/solidago.png" width="45%">
-  <img src="testing/solidago_test.png" width="45%">
+  <img src="testing/solidago.png" alt="Solidago Input" width="45%">
+  <img src="testing/solidago_test.png" alt="Solidago Result" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
+
+---
 
 ### Test 9
 
 <p align="center">
-  <img src="testing/suriana.png" width="45%">
-  <img src="testing/suriana_test.png" width="45%">
+  <img src="testing/suriana.png" alt="Suriana Input" width="45%">
+  <img src="testing/suriana_test.png" alt="Suriana Result" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
+
+---
 
 ### Test 10
 
 <p align="center">
-  <img src="testing/vigna.png" width="45%">
-  <img src="testing/vigna_test.png" width="45%">
+  <img src="testing/vigna.png" alt="Vigna Input" width="45%">
+  <img src="testing/vigna_test.png" alt="Vigna Result" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
 
-## Reflection Questions
+---
+
+## 💭 Reflection Questions
 
 ### 1. How did the number of images per class affect your model’s accuracy?
+
 The number of images per class had a big effect on the model’s accuracy. When a plant species had more images, the model had more examples to study, so it became better at recognizing that class. If a class had fewer or less varied images, the model had a harder time learning its features, which could lower the accuracy.
 
 ### 2. Which plant species were most commonly misclassified and why?
-The plant species that were most commonly misclassified were usually the ones that looked similar to each other in terms of leaf shape, flower color, or overall appearance. Since many of the plants in this project are coastal plants, some of them share very close visual features. Because of this, the model sometimes confused one species with another, especially when the image quality, angle, or background was not clear.
+
+The plant species that were most commonly misclassified were usually the ones that looked similar to each other in terms of leaf shape, flower color, or overall appearance. Since many of the plants in this project are coastal plants, some of them share close visual features. Because of this, the model sometimes confused one species with another, especially when the image quality, angle, or background was not clear.
 
 ### 3. How did changing the epochs, batch size, or learning rate affect the training results?
-Changing the epochs, batch size, and learning rate affected how well the model learned during training. When the number of epochs was higher, the model had more chances to learn from the dataset, but too much training could also make it memorize the data too much. The batch size affected how many images were processed at one time, while the learning rate controlled how fast the model adjusted during training. These hyperparameters helped improve the training results when they were set properly.
+
+Changing the epochs, batch size, and learning rate affected how well the model learned during training. When the number of epochs was higher, the model had more chances to learn from the dataset, but too much training could also make it memorize the data too much. The batch size affected how many images were processed at one time, while the learning rate controlled how fast the model adjusted during training.
 
 ### 4. What challenges did you encounter during dataset collection and labeling?
+
 One of the main challenges I encountered was collecting enough clear and good-quality images for each plant species. Some plants were harder to find, and some images had different backgrounds, lighting, or angles, which made the dataset less consistent. Another challenge was labeling the images correctly because some plant species looked very similar, so I had to be careful in organizing them into the right class.
 
 ### 5. If you were to improve your model, what specific changes would you make and why?
+
 If I were to improve my model, I would add more images for each plant species, especially for the classes that were often confused by the model. I would also try to collect clearer and more varied images so the model could learn better from different conditions. Aside from that, I would test different hyperparameters like epochs and learning rate to see if the accuracy could still be improved.
