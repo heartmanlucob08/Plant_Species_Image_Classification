@@ -275,15 +275,29 @@ This image shows the overall accuracy achieved by the trained model.
 
 ## E. Model Testing
 
-In this section, the trained model was tested using sample plant images to check how well it performs on unseen data.
+In this section, the trained model was tested using sample plant images to check how well it performs on unseen data. Each testing example includes the input image and the corresponding prediction result of the model.
+
+### Test 1
 
 <p align="center">
-  <img src="images/model-testing-1.png" width="45%">
-  <img src="images/model-testing-2.png" width="45%">
+  <img src="images/model-test-1-input.png" width="45%">
+  <img src="images/model-test-1-output.png" width="45%">
 </p>
 
-The testing results show the predicted class label and confidence score for each image.
+<p align="center"><em>Input image (left) and model prediction result (right)</em></p>
 
+The result shows the predicted plant class and the confidence score for the uploaded image.
+
+### Test Example 2
+
+<p align="center">
+  <img src="images/model-test-2-input.png" width="45%">
+  <img src="images/model-test-2-output.png" width="45%">
+</p>
+
+<p align="center"><em>Input image (left) and model prediction result (right)</em></p>
+
+The result shows the predicted plant class and the confidence score for the uploaded image.
 
 ## Reflection Questions
 
