@@ -290,7 +290,7 @@ The result shows the predicted plant class and the confidence score for the uplo
 ### Test 2
 
 <p align="center">
-  <img src="testing/bati_test.png" width="45%">
+  <img src="testing/batis_test.png" width="45%">
 </p>
 
 <p align="center"><em>Input image and model prediction result</em></p>
