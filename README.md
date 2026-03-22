@@ -280,24 +280,93 @@ In this section, the trained model was tested using sample plant images to check
 ### Test 1
 
 <p align="center">
-  <img src="images/model-test-1-input.png" width="45%">
-  <img src="images/model-test-1-output.png" width="45%">
+  <img src="images/abronia_test.png" width="45%">
 </p>
 
-<p align="center"><em>Input image (left) and model prediction result (right)</em></p>
+<p align="center"><em>Input image and model prediction</em></p>
 
 The result shows the predicted plant class and the confidence score for the uploaded image.
 
-### Test Example 2
+### Test 2
 
 <p align="center">
-  <img src="images/model-test-2-input.png" width="45%">
-  <img src="images/model-test-2-output.png" width="45%">
+  <img src="images/bati_test.png" width="45%">
+</p>
+
+<p align="center"><em>Input image and model prediction result</em></p>
+
+The result shows the predicted plant class and the confidence score for the uploaded image.
+
+### Test 3
+
+<p align="center">
+  <img src="images/crinum_test.png" width="45%">
+</p>
+
+<p align="center"><em>Input image and model prediction result</em></p>
+
+### Test 4
+
+<p align="center">
+  <img src="images/helianthus.png" width="45%">
+  <img src="images/helianthus_test.png" width="45%">
 </p>
 
 <p align="center"><em>Input image (left) and model prediction result (right)</em></p>
 
-The result shows the predicted plant class and the confidence score for the uploaded image.
+### Test 5
+
+<p align="center">
+  <img src="images/heliotropium.png" width="45%">
+  <img src="images/heliotropium_test.png" width="45%">
+</p>
+
+<p align="center"><em>Input image (left) and model prediction result (right)</em></p>
+
+### Test 6
+
+<p align="center">
+  <img src="images/ipomopea.png" width="45%">
+  <img src="images/ipomoea_test.png" width="45%">
+</p>
+
+<p align="center"><em>Input image (left) and model prediction result (right)</em></p>
+
+### Test 7
+
+<p align="center">
+  <img src="images/sesuvium.png" width="45%">
+  <img src="images/sesuvium_test.png" width="45%">
+</p>
+
+<p align="center"><em>Input image (left) and model prediction result (right)</em></p>
+
+### Test 8
+
+<p align="center">
+  <img src="images/solidago.png" width="45%">
+  <img src="images/solidago_test.png" width="45%">
+</p>
+
+<p align="center"><em>Input image (left) and model prediction result (right)</em></p>
+
+### Test 9
+
+<p align="center">
+  <img src="images/suriana.png" width="45%">
+  <img src="images/suriana_test.png" width="45%">
+</p>
+
+<p align="center"><em>Input image (left) and model prediction result (right)</em></p>
+
+### Test 10
+
+<p align="center">
+  <img src="images/vigna.png" width="45%">
+  <img src="images/vigna_test.png" width="45%">
+</p>
+
+<p align="center"><em>Input image (left) and model prediction result (right)</em></p>
 
 ## Reflection Questions
 
