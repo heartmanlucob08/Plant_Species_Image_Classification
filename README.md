@@ -540,7 +540,7 @@ The number of images per class had a big effect on the model’s accuracy. When 
 
 ### 2. Which plant species were most commonly misclassified and why?
 
-The plant species that were most commonly misclassified were usually the ones that looked similar to each other in terms of leaf shape, flower color, or overall appearance. Since many of the plants in this project are coastal plants, some of them share close visual features. Because of this, the model sometimes confused one species with another, especially when the image quality, angle, or background was not clear.
+The species that were most commonly misclassified were Sophora tomentosa and Vigna marina. Based on my testing, when I used an image where the leaf part was cut and only the flower was clearly shown, the model predicted Sophora tomentosa instead of Vigna marina. I think this happened because the model focused more on the flower that was visible in the picture. Since the image did not show the full plant features, especially the leaves, the model got confused between the two species.
 
 ### 3. How did changing the epochs, batch size, or learning rate affect the training results?
 
