@@ -384,9 +384,9 @@ This section presents the evaluation results of the trained model. The images be
 The full confusion matrix is shown below. Since the complete output was too wide to fit into one screenshot, the images were arranged closely to appear as one continuous figure.
 
 <p align="center">
-  <img src="under_the_hood_/confusion_matrix2.png" width="32%">
-  <img src="under_the_hood_/confusion_matrix (2).png" width="32%">
-  <img src="under_the_hood_/confusion_matrix (1).png" width="32%">
+  <img src="under_the_hood/confusion_matrix1.png" width="32%">
+  <img src="under_the_hood/confusion_matrix2.png" width="32%">
+  <img src="under_the_hood/confusion_matrix3.png" width="32%">
 </p>
 
 <p align="center"><em>Full Confusion Matrix</em></p>
@@ -396,7 +396,7 @@ These images help show which plant species were predicted correctly and which we
 ### Accuracy per Class
 
 <p align="center">
-  <img src="under_the_hood_/Accuracy_per_class.png" alt="Accuracy per Class" width="78%">
+  <img src="under_the_hood/accuracy_per_class.png" alt="Accuracy per Class" width="78%">
 </p>
 
 <p align="center"><em>Accuracy per class of the trained model</em></p>
@@ -406,7 +406,7 @@ This figure shows the accuracy of the model for each plant species class.
 ### Overall Model Accuracy
 
 <p align="center">
-  <img src="under_the_hood_/eopchs_graph.png" alt="Overall Model Accuracy" width="78%">
+  <img src="under_the_hood/overall_accuracy.png" alt="Overall Model Accuracy" width="78%">
 </p>
 
 <p align="center"><em>Overall model accuracy graph</em></p>
