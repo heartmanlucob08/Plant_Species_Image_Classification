@@ -366,12 +366,12 @@ A low-growing plant that spreads across sandy ground. It is adapted to hot, dry,
 
 The image classification model was trained using the following hyperparameters:
 
-- **Epochs:** 80  
+- **Epochs:** 100  
 - **Batch Size:** 32  
 - **Learning Rate:** 0.001  
 - **Number of Images per Class:** 250 images or more per class  
 
-The model was trained for **80 epochs** with a **batch size of 32** and a **learning rate of 0.001**. Each plant species contained approximately **250 images**, which helped the model learn the visual patterns of each class from a more balanced dataset. These training settings were selected to improve the model’s classification performance.
+The model was trained for **100 epochs** with a **batch size of 32** and a **learning rate of 0.001**. Each plant species contained approximately **250 images**, which helped the model learn the visual patterns of each class from a more balanced dataset. These training settings were selected to improve the model’s classification performance.
 
 ---
 
